@@ -1,0 +1,107 @@
+/* --------------------------------------------- */
+/* GENERAL */
+/* --------------------------------------------- */
+
+body {
+    padding-top: 56px;
+}
+
+.main-navbar {
+    background-color: darkred;
+}
+
+#group_name_slim {
+    display: inline-block;
+}
+
+#group_name {
+    display: none;
+}
+
+.files_container {
+    border-top: 3px solid darkred;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.files_container .card .btn {
+    background-color: darkred;
+    color: white;
+}
+
+.no-image-card-top {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: darkred;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-image-card-top h4 {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* --------------------------------------------- */
+/* PERGAMINHO */
+/* --------------------------------------------- */
+
+.year_section {
+    padding: 20px 0;
+}
+
+.year_section h2, .images_section h2 {
+    margin-bottom: 10px;
+}
+
+.year_section .card {
+    width: 200px;
+    margin: 0 20px 20px 0;
+}
+
+/* --------------------------------------------- */
+/* IMAGENS */
+/* --------------------------------------------- */
+
+.images_section {
+    padding: 20px 0;
+}
+
+.images_section .card {
+    width: 250px;
+    margin: 0 20px 20px 0;
+}
+
+/* --------------------------------------------- */
+/* DOCUMENTS */
+/* --------------------------------------------- */
+
+.documents_section {
+    padding: 20px 0;
+}
+
+.documents_section .card {
+    width: 250px;
+    margin: 0 20px 20px 0;
+}
+
+@media (min-width: 470px) {
+    .files_container {
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 520px) {
+    #group_name {
+        display: inline-block;
+    }
+
+    #group_name_slim {
+        display: none;
+    }
+}
